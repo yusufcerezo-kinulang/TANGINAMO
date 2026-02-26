@@ -1,0 +1,83 @@
+/* GLOBAL */
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#f5f7fb;
+}
+
+/* HEADER */
+.header{
+    background:#2c3e50;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+.logo span{
+    color:#00d4ff;
+    font-weight:bold;
+}
+
+/* NAVBAR */
+nav{
+    background:#34495e;
+    padding:10px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    padding:8px 14px;
+    border-radius:5px;
+    transition:.3s;
+}
+
+/* LINK EFFECTS */
+nav a:hover{
+    background:#00d4ff;
+    color:black;
+}
+
+/* CONTENT */
+.container{
+    padding:20px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    margin:20px 0;
+    border-radius:10px;
+    box-shadow:0 2px 6px rgba(0,0,0,.1);
+}
+
+/* BUTTON */
+.btn{
+    background:#00d4ff;
+    border:none;
+    padding:10px 15px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.btn:hover{
+    background:#0099cc;
+}
+
+/* FORM */
+input, textarea{
+    width:100%;
+    padding:10px;
+    margin:8px 0;
+}
+
+/* FOOTER */
+footer{
+    background:#2c3e50;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:40px;
+}
